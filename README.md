@@ -45,6 +45,8 @@ To add whatever is present in my current working directory addl to the staging a
 Now do message commit
 '''bash
     git commit -m "first commit"
+
+    git add . && git commit -m "update Readme.md"
 '''
 
 Now push the files and filders to git

@@ -50,4 +50,6 @@ Now do message commit
 Now push the files and filders to git
 '''
 git remote add origin https://github.com/pankajsinghoec-08/DVC_setup_hands-on.git
+git branch -M main
+git push -u origin main
 '''

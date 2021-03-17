@@ -1,7 +1,9 @@
 create env
 
 '''bash
+
 conda create -n winq python=3.7 -y
+
 '''
 
 activate env

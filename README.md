@@ -32,9 +32,17 @@ dvc init
 to track our data we use
 '''bash
 dvc add data_given/winequality.csv
-'''from the above command following will be requested to add
-  git add 'data_given\winequality.csv.dvc' 'data_given\.gitignore'
+'''
+from the above command following will be requested to add
+'''  git add 'data_given\winequality.csv.dvc' 'data_given\.gitignore' 
+'''
 
-  
+
 To add whatever is present in my current working directory addl to the staging area of git
-git add .
+    '''git add .
+    '''
+
+Now do message commit
+'''bash
+    git commit -m "first commit"
+'''

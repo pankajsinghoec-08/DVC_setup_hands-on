@@ -46,3 +46,8 @@ Now do message commit
 '''bash
     git commit -m "first commit"
 '''
+
+Now push the files and filders to git
+'''
+git remote add origin https://github.com/pankajsinghoec-08/DVC_setup_hands-on.git
+'''
